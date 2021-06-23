@@ -33,9 +33,7 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
-router.get('/exercise', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/exercise.html'));
-});
+
 
 // router.put("/exercise/id", (req, res) => {
 //   db.workouts.insert({})

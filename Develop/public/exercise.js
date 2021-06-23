@@ -1,3 +1,5 @@
+//what do we have to get from this page? the page, the 
+
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
 const resistanceForm = document.querySelector(".resistance-form");
