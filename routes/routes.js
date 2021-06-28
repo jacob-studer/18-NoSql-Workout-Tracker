@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const Workout = require("../models/workout");
 
-//Workout.create is not a function? -same with .find
+
 router.post("/api/workouts", (req, res) => {
   Workout.create(req.body)
     .then(dbWorkout => {
@@ -12,7 +12,7 @@ router.post("/api/workouts", (req, res) => {
     });
 });
 
-//how to implement id
+
 router.put("/api/workouts/:id", ({params, body }, res) => {
   Workout.findByIdAndUpdate(params.id, {$push:{exercises:body}}, {new:true})
     .then(dbWorkout => {
