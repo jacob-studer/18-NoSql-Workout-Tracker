@@ -16,4 +16,4 @@ A consumer will reach their fitness goals more quickly when they track their wor
 
 ## Links
 https://github.com/jacob-studer/18-NoSql-Workout-Tracker
-https://still-cove-15846.herokuapp.com/
+https://infinite-sands-50500.herokuapp.com/
